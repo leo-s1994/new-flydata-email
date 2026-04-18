@@ -1,8 +1,15 @@
 {
-  "name": "nextjs-template",
-  "installCommand": "pnpm install",
-  "assets": {
-    "directory": "./out",
-    "notFoundStrategy": "404Page"
+  "name": "flydata-email",
+  "version": "1.0.0",
+  "description": "Flydata邮件发布系统 - 基于阿里云DirectMail的多用户邮件群发客户端",
+  "build": {
+    "runtime": "nodejs18",
+    "command": "npm install",
+    "startCommand": "npm start",
+    "entry": "server.js"
+  },
+  "env": {
+    "NODE_ENV": "production",
+    "PORT": "3000"
   }
 }

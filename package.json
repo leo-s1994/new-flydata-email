@@ -1,27 +1,26 @@
 {
-  "name": "nextjs",
-  "version": "0.1.0",
-  "private": true,
+  "name": "flydata-email",
+  "version": "1.0.0",
+  "description": "Flydata邮件发布系统 - 基于阿里云DirectMail的多用户邮件群发客户端",
+  "main": "server.js",
   "scripts": {
-    "dev": "next dev --turbopack",
-    "build": "next build --turbopack",
-    "start": "next start",
-    "lint": "eslint"
+    "start": "node server.js",
+    "dev": "node server.js"
   },
+  "keywords": [
+    "email",
+    "mail-client",
+    "aliyun",
+    "directmail"
+  ],
+  "author": "leo-s1994",
+  "license": "MIT",
   "dependencies": {
-    "react": "19.1.0",
-    "react-dom": "19.1.0",
-    "next": "15.5.9"
+    "express": "^4.18.2",
+    "nodemailer": "^6.9.7",
+    "cors": "^2.8.5"
   },
-  "devDependencies": {
-    "typescript": "^5",
-    "@types/node": "^20",
-    "@types/react": "^19",
-    "@types/react-dom": "^19",
-    "@tailwindcss/postcss": "^4",
-    "tailwindcss": "^4",
-    "eslint": "^9",
-    "eslint-config-next": "15.5.9",
-    "@eslint/eslintrc": "^3"
+  "engines": {
+    "node": ">=16.0.0"
   }
 }

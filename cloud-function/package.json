@@ -1,0 +1,13 @@
+{
+  "name": "flydata-directmail-proxy",
+  "version": "1.0.0",
+  "description": "阿里云DirectMail API代理函数",
+  "main": "index.js",
+  "scripts": {
+    "test": "node test-server.js"
+  },
+  "dependencies": {
+    "express": "^4.18.2",
+    "cors": "^2.8.5"
+  }
+}
